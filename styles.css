@@ -1,5 +1,14 @@
 html {
   font-family: "Source Sans Pro", sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background-image: url("assets/motherboard-wallpaper.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 .text-align-center {
@@ -56,4 +65,33 @@ html {
   background-color: #303b43;
   border-top: 5px double white;
   border-bottom: 5px double white;
+}
+
+.about-section {
+  background-color: whitesmoke;
+}
+
+.about-image {
+  max-height: 80%;
+  border: 6px solid slategray;
+}
+
+.text-align-reset {
+  text-align: initial;
+}
+
+.tech-section {
+  background-color: gainsboro;
+}
+
+.projects-section {
+  background-color: snow;
+}
+
+.contact-section {
+  background-color: #303b43;
+}
+
+.blue-text {
+  color: lightblue;
 }
